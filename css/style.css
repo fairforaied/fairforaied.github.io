@@ -132,6 +132,43 @@ h6 {
   width: 50%;
 }
 
+.section-header h3,
+.section-header h4,
+.section-header h5 {
+  text-align: left;
+  margin: 10px auto 20px auto;
+  width: 50%;
+  font-weight: 600;
+  color: #000;
+}
+
+.section-header ul,
+.section-header ol {
+  text-align: left;
+  margin: 10px auto 30px auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 1.5em;
+}
+
+.section-header ul li,
+.section-header ol li {
+  margin-bottom: 0.35em;
+}
+
+.section-header ul ul,
+.section-header ol ol,
+.section-header ul ol,
+.section-header ol ul {
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: inherit;
+}
+
 .section-with-bg {
   background-color: #f6f7fd;
 }
